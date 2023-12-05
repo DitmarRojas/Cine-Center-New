@@ -19,8 +19,85 @@
                 </ul>
             </div>
         </div>
+    <!-- COMENTARIOS -->
+    <h1>DATOS PERSONALES</h1>
 
-    <h1>Registrate</h1>
-    <h4>Complete todos los Campos</h4>
+    <form>
+        <table>
+            <tr>
+                <td><input type="text" name="nombre" placeholder="Nombre"/></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="Apellido Paterno" placeholder="Apellido Paterno"/></td>
+                <td><input type="text" name="Apellido Materno" placeholder="Apellido Materno"/></td>
+            </tr><tr>
+                <td><select name="Documento" id="Documento">
+                    <option value="0">Tipo Documento</option>
+                    <option value="CI">CI</option>
+                    <option value="NIT">NIT</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </td>
+                <td><input type="number" name="numero" placeholder="Numero de Documento"/></td>
+            </tr><tr>
+                <td>
+                    <label for="rb_masculino">
+                        <input 
+                        type="radio" 
+                        name="rb_genero" 
+                        id="rb_masculino"/>Masculino</label>
+                    <!-- <select name="genero" id="genero">
+                        <option value="0">Genero</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select> -->
+                    <label for="rb_femenino">
+                        <input 
+                        type="radio" 
+                        name="rb_genero" 
+                        id="rb_femenino"/>Femenino
+                    </labe>
+                    <label for="rb_femenino">
+                        <input 
+                        type="radio" 
+                        name="rb_genero" 
+                        id="rb_otro"/>Otro
+                    </labe>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!--<input type="text" name="direccion" placeholder="Direccion"/>
+                    -->
+                    <textarea name="direccion" id="direccion" cols="" rows="">
+
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" name="telefono" placeholder="Telefono"/>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="date" name="fecha_nac"/></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="correo" placeholder="Correo Electronico"/></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td><input type="password" name="password" placeholder="Confirmar Password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Guardar">
+                <!-- <button type="submit>Registrate</button>-->
+                </td>
+            </tr>
+        </table>
+    </form>
     </body>
 </html>
