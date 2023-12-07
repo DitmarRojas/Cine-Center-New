@@ -11,3 +11,11 @@ echo "# Cine-Center-New" >> README.md
   git push -u origin main
 
   https://github.com/DitmarRojas/Cine-Center-New.git
+
+  bootstrap card
+
+  css gradient
+
+  w3schools
+
+  tailwind css color
